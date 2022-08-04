@@ -60,7 +60,7 @@ $breakpoint determines at which width the media query breakpoint will take effec
 
 html,
 body {
-  background-color: #fff;
+  background-color: #f8f3ed;
   height: 100%;
 }
 
@@ -86,8 +86,6 @@ nav ul li a {
   display: block;
   padding: 0 20px;
   line-height: 70px;
-  /* background: #ffffff;
-  color: #463f3f; */
   font-weight: 400;
   font-size: 16px;
   color: rgba(237, 240, 241, 1);
@@ -130,6 +128,26 @@ nav ul li ul li a {
   right: 0;
   height: 70px;
   width: 70px;
+}
+
+.welcome {
+  font-family: "Merriweather", sans-serif;
+  color: #24252a;
+  margin: 50px 200px 50px 200px;
+}
+
+.welcome-title {
+  font-size: 35px;
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+
+.welcome-text {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  padding-bottom: 25px;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
