@@ -44,6 +44,11 @@ iframe {
   background-size: cover;
 }
 
+.contact-footer {
+  position: absolute;
+  top: 1120px;
+}
+
 .bg-text {
   font-family: "Merriweather", sans-serif;
   background-color: rgb(0, 0, 0); /* Fallback color */
