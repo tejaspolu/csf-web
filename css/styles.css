@@ -76,7 +76,7 @@ iframe {
 
 html,
 body {
-  background-color: #FCF6F5;
+  background-color: #3b0007;
   height: 100%;
 }
 
@@ -147,12 +147,23 @@ nav ul li ul li a {
   width: 70px;
 }
 
+.iframe-box {
+  background-color: #FCF6F5;
+  width: 100%;
+}
+
+.welcome-box {
+  background-color: #FCF6F5;
+  width: 100%;
+}
+
 .welcome {
+  background-color: #FCF6F5;
   font-family: "Merriweather", sans-serif;
   color: #24252a;
   max-width: 1030px;
-  margin: 60px auto 60px auto;
-  padding: 0 50px 0 50px;
+  margin: 0 auto 0 auto;
+  padding: 60px 50px 60px 50px;
 }
 
 .welcome-title {
@@ -390,7 +401,7 @@ footer {
 
 .brand {
   position: absolute;
-  padding-left: 35px;
+  padding-left: 25px;
   float: left;
   line-height: 70px;
   letter-spacing: 3px;
@@ -411,7 +422,7 @@ footer {
 }
 
 button {
-  margin-right: 15px;
+  margin-right: 5px;
   padding: 9px 25px;
   background-color: transparent;
   border: 2px solid;
