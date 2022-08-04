@@ -234,6 +234,11 @@ footer{
   color: white;
 }
 
+.footer-content p a {
+  text-decoration: none;
+  color: white;
+}
+
 @media (max-width:500px) {
   .footer-menu ul{
     display: flex;
