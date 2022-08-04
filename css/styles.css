@@ -152,6 +152,96 @@ nav ul li ul li a {
   padding-bottom: 25px;
 }
 
+footer{
+  position: absolute;
+  background: #6F4E37;
+  height: auto;
+  width: 100%;
+  padding: 25px 0 25px 0;
+  color: #fff;
+
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3{
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 1rem 0;
+}
+
+/* Add a hover effect if you want */
+.fa {
+  padding-top: 11px;
+  font-size: 30px;
+  width: 50px;
+  height:50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-google {
+  background: #DB4437;
+  color: white;
+}
+
+.fa-instagram {
+  background: #8a3ab9;
+  color: white;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.footer-content p {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+}
+
+@media (max-width:500px) {
+  .footer-menu ul{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  }
+
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   .logo {
     height: 87px;
