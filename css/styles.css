@@ -132,7 +132,7 @@ nav ul li ul li a {
   width: 70px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
   .logo {
     height: 87px;
     width: 150px;
@@ -153,7 +153,7 @@ nav ul li ul li a {
     position: sticky;
     z-index: 3;
   }
-  .brand{
+  .brand {
     position: sticky;
     z-index: 4;
   }
@@ -173,12 +173,22 @@ nav ul li ul li a {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-.logo {
+  .logo {
     height: 116px;
     width: 200px;
   }
   .bg-text h1 {
     font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .logo {
+    height: 58px;
+    width: 100px;
+  }
+  .bg-text h1 {
+    font-size: 25px;
   }
 }
 
