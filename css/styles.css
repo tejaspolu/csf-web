@@ -133,7 +133,9 @@ nav ul li ul li a {
 .welcome {
   font-family: "Merriweather", sans-serif;
   color: #24252a;
-  margin: 50px 200px 50px 200px;
+  max-width: 1030px;
+  margin: 60px auto 60px auto;
+  padding: 0 50px 0 50px;
 }
 
 .welcome-title {
