@@ -301,6 +301,12 @@ footer {
   .remove-me {
     display: none;
   }
+  .brand a {
+    padding-left: 0px !important;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (max-width: 599px) {
@@ -489,7 +495,7 @@ button:hover {
 
 .faq-box {
   margin: 0 auto 0 auto;
-  color: #24252a;
+  color: #3b0007;
   width: 80%;
   font-family: "futura-book", sans-serif;
   letter-spacing: 1.25px;
@@ -498,6 +504,7 @@ button:hover {
 }
 
 .faq-title {
+  color: #24252a;
   text-align: center;
   font-size: 40px;
   padding: 35px 0 10px 0;
@@ -506,7 +513,7 @@ button:hover {
 .faq {
   max-width: 700px;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #3b0007;
+  border-bottom: 1.5px solid #24252a;
   cursor: pointer;
   margin: 2rem auto 0 auto;
 }
@@ -522,6 +529,9 @@ button:hover {
 }
 
 .answer {
+  color: #24252a;
+  font-family: "futura-light", sans-serif;
+  letter-spacing: 1px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 1.4s ease;
@@ -540,9 +550,11 @@ button:hover {
 
 .faq.active svg {
   transform: rotate(180deg);
+  color: #3b0007;
 }
 
 svg {
+  
   transition: transform 0.5s ease-in;
 }
 
