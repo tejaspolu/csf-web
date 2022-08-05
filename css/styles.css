@@ -45,11 +45,11 @@ iframe {
 }
 
 .bg-text {
-  font-family: "Merriweather", sans-serif;
+  font-family: "futura-book", sans-serif;
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
   color: #FCF6F5;
-
+  letter-spacing: 1.5px;
   font-size: 25px;
   border: 3px solid #f1f1f1;
   position: absolute;
@@ -449,6 +449,6 @@ button:hover {
 }
 
 .form {
-  min-height: 1200px;
+  min-height: 1150px;
   width: 100%;
 }
