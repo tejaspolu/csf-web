@@ -221,12 +221,23 @@ footer {
   margin: 1rem 0 1rem 0;
 }
 
+
 /* Add a hover effect if you want */
 .fa {
   padding-top: 11px;
   font-size: 30px;
   width: 50px;
   height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.officer-fa {
+  padding-top: 11px;
+  font-size: 35px;
+  width: 55px;
+  height: 55px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -252,18 +263,44 @@ footer {
   transition: all 0.3s ease 0s;
 }
 
-.fa-instagram {
+.instagram-purple {
   background: #8a3ab9;
   color: #fcf6f5;
 }
 
-.fa-instagram:hover {
+.instagram-black {
+  background: transparent;
+  color: #24252a;
+}
+
+.instagram-black:hover {
+  color: rgb(36, 37, 42, 0.8);
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.instagram-purple:hover {
   background: rgba(138, 58, 185, 0.8);
+  transition: all 0.3s ease 0s;
+}
+
+.fa-envelope {
+  background: transparent;
+  color: #24252a;
+}
+
+.fa-envelope:hover {
+  color: rgb(36, 37, 42, 0.8);
+  background: transparent;
   transition: all 0.3s ease 0s;
 }
 
 .socials li {
   margin: 0 10px;
+}
+
+.socials li.officer-li {
+  margin: 0;
 }
 
 .footer-content p {
