@@ -571,7 +571,7 @@ svg {
 
 .credits-title {
   font-family: "futura-book", sans-serif;
-  letter-spacing: 1.25px;
+  letter-spacing: 1px;
   text-align: center;
   font-size: 40px;
   padding: 35px 0 0px 0;
@@ -579,4 +579,68 @@ svg {
 
 .footer-button {
   margin: 10px 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+.wrapper{
+  padding-top: 35px;
+  background: #FCF6F5;
+  font-family: 'futura-book', sans-serif;
+}
+
+.wrapper h1{
+  font-family: 'futura-book', sans-serif;
+  font-size: 50px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: #dbc0c3;
+  margin: 15px;
+  margin-bottom: 100px;
+  width: 400px;
+  padding: 20px;
+  line-height: 20px;
+  color: #24252a;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: #24252a;
+  font-size: 26px;
+  margin-top: 75px;
+}
+
+.team .team_member p.role{
+  color: #3b0007;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -75px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #FCF6F5;
+}
+
+.team .team_member .team_img img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
