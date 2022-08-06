@@ -76,7 +76,7 @@ iframe {
 
 html,
 body {
-  background-color: #3b0007;
+  background-color: #232b5a;
   height: 100%;
 }
 
@@ -88,7 +88,7 @@ header {
 }
 
 nav {
-  background-color: #3b0007;
+  background-color: #232b5a;
   float: right;
 }
 
@@ -150,17 +150,17 @@ nav ul li ul li a {
 }
 
 .iframe-box {
-  background-color: #fcf6f5;
+  background-color: #fcf4f6;
   width: 100%;
 }
 
 .welcome-box {
-  background-color: #fcf6f5;
+  background-color: #fcf4f6;
   width: 100%;
 }
 
 .welcome {
-  background-color: #fcf6f5;
+  background-color: #fcf4f6;
   font-family: "Merriweather", sans-serif;
   color: #24252a;
   max-width: 1030px;
@@ -184,7 +184,7 @@ nav ul li ul li a {
 
 footer {
   position: sticky;
-  background: #3b0007;
+  background: #232b5a;
   width: 100%;
   padding: 25px 0 25px 0;
   color: #fcf6f5;
@@ -461,7 +461,7 @@ footer {
 */
 .navigation {
   height: 70px;
-  background-color: #3b0007;
+  background-color: #232b5a;
 }
 
 /*
@@ -511,13 +511,13 @@ button {
 
 button:hover {
   background-color: rgba(237, 240, 241, 1);
-  color: #24252a;
+  color: #232b5a;
   transition: all 0.3s ease 0s;
 }
 
 .form-box {
   z-index: 0;
-  background-color: #fcf6f5;
+  background-color: #fcf4f6;
 }
 
 .form {
@@ -526,13 +526,13 @@ button:hover {
 }
 
 .faq-container {
-  background-color: #fcf6f5;
+  background-color: #fcf4f6;
   padding-bottom: 50px;
 }
 
 .faq-box {
   margin: 0 auto 0 auto;
-  color: #3b0007;
+  color: #232b5a;
   width: 80%;
   font-family: "futura-book", sans-serif;
   letter-spacing: 1.25px;
@@ -587,7 +587,7 @@ button:hover {
 
 .faq.active svg {
   transform: rotate(180deg);
-  color: #3b0007;
+  color: #232b5a;
 }
 
 svg {
@@ -622,7 +622,7 @@ svg {
 
 .wrapper{
   padding-top: 35px;
-  background: #FCF6F5;
+  background: #fcf4f6;
   font-family: 'futura-book', sans-serif;
 }
 
@@ -642,7 +642,7 @@ svg {
 }
 
 .team .team_member{
-  background: #dbc0c3;
+  background: #c9ccdb;
   margin: 15px;
   margin-bottom: 100px;
   width: 400px;
@@ -659,7 +659,7 @@ svg {
 }
 
 .team .team_member p.role{
-  color: #3b0007;
+  color: #232b5a;
   margin: 12px 0;
   font-size: 12px;
   text-transform: uppercase;
