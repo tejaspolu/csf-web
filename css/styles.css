@@ -912,10 +912,12 @@ table {
 
 .table-subtitle {
   font-family: "futura-book", sans-serif;
+  font-size: 16px;
 }
 
 th {
   font-family: "futura-book", sans-serif;
+  font-size: 16px;
   border: 1px solid #dddddd;
   text-align: center;
   padding: 8px;
@@ -924,6 +926,7 @@ th {
 
 td {
   border: 1px solid #dddddd;
+  font-size: 16px;
   text-align: left;
   padding: 8px;
 }
@@ -938,6 +941,13 @@ td ul li {
 
 td a {
   color: #24252a;
+}
+
+h5 {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px 0 0 3px;
+  font-family: "futura-light", sans-serif;
 }
 
 /* tr:nth-child(even) {
