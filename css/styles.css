@@ -355,6 +355,10 @@ footer {
     text-align: center;
     margin: 0 auto;
   }
+
+  h5 {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -569,7 +573,7 @@ button:hover {
   letter-spacing: 1px;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 1.4s ease;
+  transition: max-height 1.1s ease;
 }
 
 .answer p {
@@ -580,7 +584,7 @@ button:hover {
 
 .faq.active .answer {
   max-height: 300px;
-  animation: fade 1s ease-in-out;
+  animation: fade 0.7s ease-in-out;
 }
 
 .faq.active svg {
