@@ -151,17 +151,17 @@ nav ul li ul li a {
 }
 
 .iframe-box {
-  background-color: #fcf4f6;
+  background-color: #fcf6f5;
   width: 100%;
 }
 
 .welcome-box {
-  background-color: #fcf4f6;
+  background-color: #fcf6f5;
   width: 100%;
 }
 
 .welcome {
-  background-color: #fcf4f6;
+  background-color: #fcf6f5;
   font-family: "Merriweather", sans-serif;
   color: #24252a;
   max-width: 1030px;
@@ -221,7 +221,6 @@ footer {
   justify-content: center;
   margin: 1rem 0 1rem 0;
 }
-
 
 /* Add a hover effect if you want */
 .fa {
@@ -323,8 +322,6 @@ footer {
     margin-top: 10px;
     margin-bottom: 20px;
   }
-
-
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
@@ -518,7 +515,7 @@ button:hover {
 
 .form-box {
   z-index: 0;
-  background-color: #fcf4f6;
+  background-color: #fcf6f5;
 }
 
 .form {
@@ -527,7 +524,7 @@ button:hover {
 }
 
 .faq-container {
-  background-color: #fcf4f6;
+  background-color: #fcf6f5;
   padding-bottom: 50px;
 }
 
@@ -592,7 +589,6 @@ button:hover {
 }
 
 svg {
-  
   transition: transform 0.5s ease-in;
 }
 
@@ -619,22 +615,22 @@ svg {
   margin: 10px 0;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+@import url("https://fonts.googleapis.com/css?family=Allura|Josefin+Sans");
 
-.wrapper{
+.wrapper {
   padding-top: 35px;
-  background: #fcf4f6;
-  font-family: 'futura-book', sans-serif;
+  background: #fcf6f5;
+  font-family: "futura-book", sans-serif;
 }
 
-.wrapper h1{
-  font-family: 'futura-book', sans-serif;
+.wrapper h1 {
+  font-family: "futura-book", sans-serif;
   font-size: 45px;
   margin-bottom: 100px;
   text-align: center;
 }
 
-.team{
+.team {
   display: flex;
   justify-content: center;
   width: auto;
@@ -642,31 +638,31 @@ svg {
   flex-wrap: wrap;
 }
 
-.team .team_member{
+.team .team_member {
   background: #c9ccdb;
   margin: 15px;
   margin-bottom: 100px;
   width: 400px;
   padding: 20px;
   line-height: 20px;
-  color: #24252a;  
+  color: #24252a;
   position: relative;
 }
 
-.team .team_member h3{
+.team .team_member h3 {
   color: #24252a;
   font-size: 26px;
   margin-top: 75px;
 }
 
-.team .team_member p.role{
+.team .team_member p.role {
   color: #232b5a;
   margin: 12px 0;
   font-size: 12px;
   text-transform: uppercase;
 }
 
-.team .team_member .team_img{
+.team .team_member .team_img {
   position: absolute;
   top: -75px;
   left: 50%;
@@ -674,10 +670,10 @@ svg {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background: #FCF6F5;
+  background: #fcf6f5;
 }
 
-.team .team_member .team_img img{
+.team .team_member .team_img img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -688,7 +684,7 @@ svg {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background: #fcf4f6;
+  background: #fcf6f5;
   box-sizing: border-box;
 }
 #btns * {
@@ -711,7 +707,7 @@ svg {
   box-sizing: border-box;
 }
 .btn p a {
-  color: #fcf4f6;
+  color: #fcf6f5;
 }
 /* Button Backgrounds */
 .btn:nth-child(1) {
@@ -723,10 +719,10 @@ svg {
   /* background: #1491e1; */
 }
 .btn:nth-child(3) {
-  background: 	#6078c0;
+  background: #6078c0;
   /* background: #2ba1eb; */
 }
-.btn:nth-child(4){
+.btn:nth-child(4) {
   background: #4860a8;
   /* background: #49afef; */
 }
@@ -740,7 +736,7 @@ svg {
   /* background: #1491e1; */
 }
 .btn:nth-child(3):hover {
-  background: 	rgba(96, 120, 192, 0.9);
+  background: rgba(96, 120, 192, 0.9);
   /* background: #2ba1eb; */
 }
 .btn:nth-child(4):hover {
@@ -789,6 +785,7 @@ svg {
   text-align: center;
   color: #fff;
   font-family: "futura-book", sans-serif;
+  letter-spacing: 0.5px;
   font-size: 1.4em;
   line-height: 1em;
   font-weight: 400;
@@ -796,6 +793,7 @@ svg {
 .btn p {
   padding-top: 20px;
   font-family: "futura-light", sans-serif;
+  letter-spacing: 0.5px;
   color: #fff;
   text-align: center;
   font-size: 1em;
@@ -832,8 +830,116 @@ svg {
     display: block;
     width: 50%;
   }
-  .btn:nth-child(1):after, .btn:nth-child(2):after, .btn:nth-child(3):after {
+  .btn:nth-child(1):after,
+  .btn:nth-child(2):after,
+  .btn:nth-child(3):after {
     border-left: 0px;
   }
 }
 
+.faq-container {
+  background-color: #fcf6f5;
+  padding-bottom: 50px;
+}
+
+.faq-box {
+  margin: 0 auto 0 auto;
+  color: #24252a;
+  width: 80%;
+  font-family: "futura-book", sans-serif;
+  letter-spacing: 1.25px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-title {
+  color: #24252a;
+  text-align: center;
+  font-size: 45px;
+  padding: 35px 0 10px 0;
+}
+
+.faq {
+  max-width: 700px;
+  padding-bottom: 1rem;
+  border-bottom: 1.5px solid #232b5a;
+  cursor: pointer;
+  margin: 2rem auto 0 auto;
+}
+
+.events-container {
+  background-color: #fcf6f5;
+  padding-bottom: 50px;
+}
+
+.events {
+  margin: 0 auto 0 auto;
+  color: #24252a;
+  width: 80%;
+  font-family: "futura-book", sans-serif;
+  flex-direction: column;
+  align-items: center;
+}
+
+.events-box {
+  max-width: 900px;
+  margin: 0 auto 0 auto;
+  padding-top: 35px;
+  overflow-x: scroll;
+}
+
+.events-title {
+  font-family: "futura-book", sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 35px;
+}
+
+table {
+  width: 100%;
+  font-family: "futura-light", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.table-title {
+  font-family: "futura-book", sans-serif;
+  letter-spacing: 0.8px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.table-subtitle {
+  font-family: "futura-book", sans-serif;
+}
+
+th {
+  font-family: "futura-book", sans-serif;
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  background: #c9ccdb;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+td ul {
+  list-style-type: "-  ";
+}
+
+td ul li {
+  margin-left: 35px;
+}
+
+td a {
+  color: #24252a;
+}
+
+/* tr:nth-child(even) {
+  background-color: #dddddd;
+} */
