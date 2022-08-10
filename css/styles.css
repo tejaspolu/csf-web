@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&family=Inter:wght@100;300;400;500;600;700&family=Lato:wght@100;300;400;700;900&family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600&family=Roboto:wght@100;300;400;500;700&display=swap");
 @import url(//db.onlinewebfonts.com/c/23c0fcab84d99da0de762de7e220a6e1?family=Europa);
-@import url(fonts/Moderne-Sans-Font.rar);
-
-/* 
-$content-width will be the max width of the content within the navigation bar. 
-$breakpoint determines at which width the media query breakpoint will take effect.
-*/
 
 * {
   box-sizing: border-box;
@@ -47,8 +41,8 @@ iframe {
 .bg-text {
   font-family: "Merriweather";
   font-weight: 900;
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
   color: #fcf6f5;
   letter-spacing: 1.5px;
   font-size: 25px;
@@ -112,9 +106,6 @@ nav ul li a {
   text-decoration: none;
   position: inherit;
   z-index: 3;
-  /*
-  The full path of this code is nav ul li a:not(:only-child):after. This means that the code will apply to any a tag in our nav list that is NOT an only child, aka any dropdown. The :after means it comes after the output of the tag. I’ve decided that to specify any nav item as a dropdown, it will be followed by a unicode arrow – ▾ (#9662).
-  */
 }
 
 nav ul li a:hover {
@@ -222,7 +213,6 @@ footer {
   margin: 1rem 0 1rem 0;
 }
 
-/* Add a hover effect if you want */
 .fa {
   padding-top: 11px;
   font-size: 30px;
@@ -458,17 +448,12 @@ footer {
     display: block !important;
   }
 }
-/* 
-.navigation – the outer wrapper for the navbar. Specifies the height and color, and will stretch the full width of the viewport.
-*/
+
 .navigation {
   height: 70px;
   background-color: #232b5a;
 }
 
-/*
-.nav-container – the inner wrapper for the navbar. Defines how far the actual content should stretch.
-*/
 .nav-container {
   width: auto;
   margin: 0 auto;
@@ -737,35 +722,14 @@ svg {
 }
 .btn:nth-child(2):hover {
   background: rgba(120, 144, 192, 0.9);
-  /* background: #1491e1; */
 }
 .btn:nth-child(3):hover {
   background: rgba(96, 120, 192, 0.9);
-  /* background: #2ba1eb; */
 }
 .btn:nth-child(4):hover {
   background: rgba(72, 96, 168, 0.9);
-  /* background: #49afef; */
 }
-/* Arrows */
-/* .btn:nth-child(1):after, .btn:nth-child(2):after, .btn:nth-child(3):after {
-  position: absolute;
-  top: 45%;
-  right: -18px;
-  z-index: 1;
-  content: "";
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-left: 20px solid white;
-  transition: all 0.3s ease-in-out;
-}
-.btn:nth-child(2):after {
-  border-left: 20px solid #1491e1;
-}
-.btn:nth-child(3):after {
-  border-left: 20px solid #2ba1eb;
-} */
-/* Icon */
+
 .btn .icon {
   display: block;
   margin: 0 auto 20px auto;
@@ -784,7 +748,7 @@ svg {
 .btn .icon {
   fill: currentColor;
 }
-/* Text Styles */
+
 .btn h2 {
   text-align: center;
   color: #fff;
@@ -803,15 +767,7 @@ svg {
   font-size: 1em;
   line-height: 1.5em;
 }
-/* Hover Effects */
-/* .btn:hover {
-  background: #0b6ca9;
-}
 
-.btn:hover:after {
-  border-left: 20px solid #0b6ca9;
-} 
-*/
 .btn:hover .icon {
   transform-origin: center;
   transform: scale(1);
@@ -820,7 +776,7 @@ svg {
 .btn:hover h2 {
   color: #fff;
 }
-/* Media Queries */
+
 @media (max-width: 950px) and (min-width: 701px) {
   .btn {
     width: 50%;
@@ -955,7 +911,3 @@ h5 {
   font-family: "futura-light", sans-serif;
   letter-spacing: 0.5px;
 }
-
-/* tr:nth-child(even) {
-  background-color: #dddddd;
-} */
