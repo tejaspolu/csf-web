@@ -233,13 +233,24 @@ footer {
   border-radius: 50%;
 }
 
-.fa-facebook {
+.facebook-blue {
   background: #3b5998;
   color: #fcf6f5;
 }
 
-.fa-facebook:hover {
+.facebook-blue:hover {
   background: rgba(59, 89, 152, 0.8);
+  transition: all 0.3s ease 0s;
+}
+
+.facebook-black {
+  background: transparent;
+  color: #24252a;
+}
+
+.facebook-black:hover {
+  color: rgb(36, 37, 42, 0.8);
+  background: transparent;
   transition: all 0.3s ease 0s;
 }
 
@@ -259,6 +270,7 @@ footer {
 }
 
 .instagram-black {
+  margin-right:3px;
   background: transparent;
   color: #24252a;
 }
@@ -286,7 +298,7 @@ footer {
 }
 
 .socials li {
-  margin: 0 10px;
+  margin-right: 10px;
 }
 
 .socials li.officer-li {
