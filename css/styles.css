@@ -749,7 +749,7 @@ svg {
   height: 80px;
   transform-origin: center;
   transform: scale(0.9);
-  color: #fff;
+  color: #FCF6F5;
 }
 .btn .icon svg {
   fill: currentColor;
