@@ -18,14 +18,16 @@
 }
 
 .sheet {
-  margin: 0 auto 0 auto;
   width: 100%;
+  border: 3px double black;
+  height: 650px;
 }
 
-iframe {
+.iframe-box div {
+  justify-content: center;
   padding: 35px 50px 50px 50px;
   width: 90%;
-  height: 650px;
+  margin: 0 auto 0 auto;
 }
 
 .bg-img {
@@ -523,6 +525,7 @@ button:hover {
 .form {
   min-height: 1150px;
   width: 100%;
+  padding: 50px;
 }
 
 .faq-container {
