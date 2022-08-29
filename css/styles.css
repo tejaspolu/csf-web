@@ -24,8 +24,8 @@
 
 .iframe-box div {
   justify-content: center;
-  padding: 35px 50px 50px 50px;
-  width: 90%;
+  padding: 35px 25px 50px 25px;
+  width: 95%;
   margin: 0 auto 0 auto;
 }
 
@@ -645,7 +645,7 @@ svg {
 .team .team_member {
   letter-spacing: 0.1px;
   background: #c9ccdb;
-  margin: 15px;
+  margin: 30px;
   margin-bottom: 100px;
   width: 400px;
   padding: 20px 40px;
@@ -823,7 +823,7 @@ svg {
 .faq-box {
   margin: 0 auto 0 auto;
   color: #24252a;
-  width: 80%;
+  width: 85%;
   font-family: "futura-book", sans-serif;
   letter-spacing: 1.25px;
   flex-direction: column;
