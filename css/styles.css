@@ -586,10 +586,10 @@ button:hover {
 .answer {
   color: #24252a;
   font-family: "futura-light", sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 1.1s ease;
+  transition: max-height 1.9s ease;
 }
 
 .answer p {
@@ -600,7 +600,7 @@ button:hover {
 
 .faq.active .answer {
   max-height: 300px;
-  animation: fade 0.7s ease-in-out;
+  animation: fade 0.5s ease-in-out;
 }
 
 .faq.active svg {
